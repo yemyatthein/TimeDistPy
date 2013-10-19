@@ -126,20 +126,3 @@ class RowData(object):
         self.mnresp = mnresp
     def __repr__(self):
         return str((self.summation, self.average, self.maximum, self.minimum, self.count))
-
-def test():
-    x = datetime(2012, 2, 1)
-    y = datetime(2012, 3, 1)
-    tv = TimelyView()
-    tv.set_input_from_file('sample_data.csv')
-    tv.distribute_and_aggregate()
-
-    r1 = tv.aggregation_between(x, y, SUM)
-    r2 = tv.aggregation_between(x, y, AVG)
-    r3 = tv.aggregation_between(x, y, MAX)
-
-    print r1
-    print '--------------------'
-    print r2
-    print '--------------------'
-    print r3
