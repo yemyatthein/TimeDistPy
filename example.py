@@ -1,5 +1,3 @@
-import sys
-sys.path.append("./../")
 from timely_view import *
 from datetime import datetime
 
