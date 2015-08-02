@@ -46,3 +46,5 @@ After these two steps are performed, we can query the aggregations results using
 
 * Give result of AVG on date "10th Apr, 2013".
 * Give results of SUM between "10th May, 2012" and "20th Jun, 2013"
+
+See the example.py for usage in code.
