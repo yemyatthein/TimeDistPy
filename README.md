@@ -1,6 +1,8 @@
-#TimeDistPy (Timely Distribution of Data in Python)
+#TimeDistPy
 
-This tool allows you view the data that has an active period. An example would be a software outsourcing company that has many projects it developed, wants to see the time-oriented view of how much they make in a certain period. Assume the data is with the schema of 
+TimeDistPy (Timely Distribution of Data in Python) allows you view the data that has an active period. An example would be a software outsourcing company that has many projects it developed, wants to see the time-oriented view of how much they make in a certain period. Assume the company has projects data as follows in some data store.
+
+## Input data
 
 PROJECT_NAME | START_DATE | END_DATE | PROJECT_PROFIT
 -------------|------------|----------|---------------
